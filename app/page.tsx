@@ -4,7 +4,6 @@ import RetroAboutSection from "@/components/RetroAboutSection";
 import PlantGallery from "@/components/PlantGallery";
 import RetroTestimonials from "@/components/RetroTestimonials";
 import RetroDirector from "@/components/RetroDirector";
-import UpdateButton from "@/components/UpdateButton";
 
 export default function Home() {
   return (
@@ -64,7 +63,7 @@ export default function Home() {
               인생정원 산하기관
             </div>
             <div style={{ fontSize: '18px', fontWeight: 'bold', color: '#333', fontStyle: 'italic' }}>
-              "배움이 즐거움이 되는 순간, 새로운 가능성이 열립니다"
+              &ldquo;배움이 즐거움이 되는 순간, 새로운 가능성이 열립니다&rdquo;
             </div>
           </div>
 
@@ -91,11 +90,11 @@ export default function Home() {
                 통찰에서 출발합니다.
               </p>
               <p style={{ marginBottom: '20px', fontWeight: 'bold', color: '#ff3300', fontSize: '15px' }}>
-                "인생은 자신의 쓸모를 찾아가는 여정"
+                &ldquo;인생은 자신의 쓸모를 찾아가는 여정&rdquo;
               </p>
               <p style={{ marginBottom: '15px' }}>
                 이러한 철학 아래, 그 여정에 필수적인 도구는<br />
-                바로 '배움'이라고 정의합니다.
+                바로 &lsquo;배움&rsquo;이라고 정의합니다.
               </p>
             </div>
           </div>

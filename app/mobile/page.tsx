@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import RetroHeader from "@/components/RetroHeader";
 import RetroHeroSection from "@/components/RetroHeroSection";
 import RetroAboutSection from "@/components/RetroAboutSection";
 import PlantGallery from "@/components/PlantGallery";
@@ -82,7 +81,7 @@ export default function MobilePage() {
                 인생정원 산하기관
               </div>
               <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#333', fontStyle: 'italic' }}>
-                "배움이 즐거움이 되는 순간, 새로운 가능성이 열립니다"
+                &ldquo;배움이 즐거움이 되는 순간, 새로운 가능성이 열립니다&rdquo;
               </div>
             </div>
 
@@ -109,13 +108,13 @@ export default function MobilePage() {
                   발견해가는 교육을 제공합니다.
                 </p>
                 <p style={{ marginBottom: '15px', fontWeight: 'bold', color: '#ff3300', fontSize: '12px' }}>
-                  "인생은 자신의 쓸모를<br />
-                  찾아가는 여정"
+                  &ldquo;인생은 자신의 쓸모를<br />
+                  찾아가는 여정&rdquo;
                 </p>
                 <p>
                   이러한 철학 아래,<br />
                   그 여정에 필수적인 도구는<br />
-                  바로 '배움'입니다.
+                  바로 &lsquo;배움&rsquo;입니다.
                 </p>
               </div>
             </div>
