@@ -37,6 +37,15 @@ export default function Home() {
         </div>
       </div>
 
+      <RetroDirector />
+
+      {/* 섹션 구분자 4 */}
+      <div className="section-divider">
+        <div className="flower-icon">
+          <img src="/flower2/4.jpg" alt="꽃 장식" style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover' }} />
+        </div>
+      </div>
+
       {/* 플레이아카데미 섹션 - 시골스 스타일 */}
       <div id="academy" className="sigols-container" style={{ margin: '30px auto' }}>
         <div className="retro-section" style={{ padding: '30px', borderRadius: '3px' }}>
@@ -133,15 +142,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 섹션 구분자 4 */}
-      <div className="section-divider">
-        <div className="flower-icon">
-          <img src="/flower2/4.jpg" alt="꽃 장식" style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover' }} />
-        </div>
-      </div>
-
-      <RetroTestimonials />
-
       {/* 섹션 구분자 5 */}
       <div className="section-divider">
         <div className="flower-icon">
@@ -149,7 +149,7 @@ export default function Home() {
         </div>
       </div>
 
-      <RetroDirector />
+      <RetroTestimonials />
 
       {/* 마지막 섹션 구분자 */}
       <div className="section-divider">
