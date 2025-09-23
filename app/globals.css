@@ -468,3 +468,34 @@
   border: none !important;
   border-bottom: 1px solid #ddd !important;
 }
+
+/* PC 버전 전용 스타일 - 고정폭 유지 */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* PC 버전에서는 모바일 반응형 비활성화 */
+@media (max-width: 768px) {
+  /* PC 접속 시에는 모바일 스타일 적용하지 않음 */
+  body:not(.mobile-container) .sigols-container {
+    width: 1200px !important;
+    min-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+
+  body:not(.mobile-container) .profile-grid {
+    display: grid !important;
+    grid-template-columns: 350px 1fr !important;
+  }
+
+  body:not(.mobile-container) .expertise-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}

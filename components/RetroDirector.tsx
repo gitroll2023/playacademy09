@@ -10,7 +10,7 @@ export default function RetroDirector() {
         </h2>
 
         {/* 메인 프로필 영역 */}
-        <div style={{ display: 'grid', gridTemplateColumns: '350px 1fr', gap: '40px', marginBottom: '30px' }}>
+        <div className="profile-grid" style={{ gap: '40px', marginBottom: '30px' }}>
           {/* 프로필 사진 및 기본 정보 */}
           <div>
             {/* 프로필 카드 */}
@@ -122,7 +122,7 @@ export default function RetroDirector() {
         </div>
 
         {/* 전문 분야 4개 박스 */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '20px' }}>
+        <div className="expertise-grid" style={{ gap: '20px' }}>
           <div className="retro-card" style={{ padding: '25px', background: '#e6ffe6', border: '1px solid #228b22', borderRadius: '3px', textAlign: 'center' }}>
             <div style={{ fontSize: '40px', marginBottom: '15px' }}>🌱</div>
             <h4 style={{ fontSize: '16px', color: '#006400', marginBottom: '10px', fontWeight: 'bold' }}>화훼 전문성</h4>

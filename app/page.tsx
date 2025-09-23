@@ -1,3 +1,6 @@
+'use client';
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import RetroHeader from "@/components/RetroHeader";
 import RetroHeroSection from "@/components/RetroHeroSection";
 import RetroAboutSection from "@/components/RetroAboutSection";
@@ -6,6 +9,17 @@ import RetroTestimonials from "@/components/RetroTestimonials";
 import RetroDirector from "@/components/RetroDirector";
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    // 모바일 기기 감지
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const isSmallScreen = window.innerWidth <= 768;
+
+    if (isMobile || isSmallScreen) {
+      router.replace('/mobile');
+    }
+  }, [router]);
   return (
     <div style={{ minHeight: '100vh' }}>
       <RetroHeader />
