@@ -1,0 +1,470 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 시골스 스타일 - 깔끔한 2000년대 후반 */
+@layer base {
+  body {
+    background: #f5f5f5;
+    font-family: 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+    min-height: 100vh;
+    min-width: 1240px;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+  }
+}
+
+/* 구식 테이블 스타일 */
+.retro-table {
+  border: 2px solid #666;
+  border-collapse: collapse;
+  background: #F5F5F5;
+}
+
+.retro-table td, .retro-table th {
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+/* 시골스 스타일 버튼 */
+.retro-button {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 13px;
+  color: #333;
+  font-weight: normal;
+}
+
+.retro-button:hover {
+  background: #666666;
+  color: white;
+  border-color: #666666;
+}
+
+.retro-button:active {
+  background: #555555;
+}
+
+.retro-button:focus {
+  outline: 1px solid #666666;
+  outline-offset: 1px;
+}
+
+/* 시골스 스타일 링크 */
+.retro-link {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.retro-link:visited {
+  color: #333;
+}
+
+.retro-link:hover {
+  color: #666666;
+  text-decoration: none;
+}
+
+.retro-link:focus {
+  outline: 1px solid #666666;
+  outline-offset: 1px;
+}
+
+/* 구식 프레임 효과 */
+.retro-frame {
+  border: 3px ridge #C0C0C0;
+  background-color: #F0F0F0;
+  padding: 10px;
+}
+
+/* 깜빡이는 텍스트 애니메이션 */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+/* 구식 그라데이션 텍스트 */
+.retro-gradient-text {
+  background: linear-gradient(to right, #FF0000, #00FF00, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+/* 마퀴 효과 */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  animation: marquee 15s linear infinite;
+  white-space: nowrap;
+}
+
+/* Windows 95 스타일 창 */
+.win95-window {
+  background: #C0C0C0;
+  border: 2px solid;
+  border-color: #FFFFFF #808080 #808080 #FFFFFF;
+  box-shadow: inset -1px -1px 0 #000000, inset 1px 1px 0 #DFDFDF;
+}
+
+.win95-titlebar {
+  background: linear-gradient(to right, #000080, #0080FF);
+  padding: 2px 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* 시골스 스타일 텍스트 */
+.retro-text {
+  line-height: 1.4;
+  color: #333;
+  font-size: 13px;
+}
+
+.retro-title {
+  font-weight: bold;
+  color: #333;
+  font-family: 'Gungsuh', '궁서', 'GungsuhChe', '궁서체', 'Batang', '바탕', 'Malgun Gothic', '맑은 고딕', serif;
+}
+
+/* 궁서체 전용 클래스 */
+.gungsuh-text {
+  font-family: 'Gungsuh', '궁서', 'GungsuhChe', '궁서체', 'Batang', '바탕', serif;
+}
+
+/* 꽃 장식 요소들 */
+.flower-decoration {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.flower-decoration-1 {
+  background-image: url('/flower2/1.jpg');
+}
+
+.flower-decoration-2 {
+  background-image: url('/flower2/2.jpg');
+}
+
+.flower-decoration-3 {
+  background-image: url('/flower2/3.jpg');
+}
+
+.flower-decoration-4 {
+  background-image: url('/flower2/4.jpg');
+}
+
+/* 섹션 구분자 */
+.section-divider {
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.section-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd, transparent);
+  z-index: 0;
+}
+
+.section-divider .flower-icon {
+  background: #e6f5ff;
+  padding: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+/* 시골스 스타일 카드 */
+.retro-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.retro-section {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+/* 시골스 스타일 헤더 */
+.sigols-header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+/* 시골스 스타일 메인 컨테이너 */
+.sigols-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* 시골스 스타일 네비게이션 */
+.sigols-nav {
+  display: table;
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.sigols-nav > * {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.sigols-nav > *:first-child {
+  width: 350px;
+}
+
+.sigols-nav > *:nth-child(2) {
+  width: 600px;
+  text-align: center;
+}
+
+.sigols-nav > *:last-child {
+  width: 250px;
+  text-align: right;
+}
+
+.sigols-nav-links {
+  display: table;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+
+.sigols-nav-links li {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sigols-nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 35px 5px 8px 5px;
+  display: block;
+  transition: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sigols-nav-links a:hover {
+  color: #666666;
+  background: #f0f0f0;
+}
+
+/* 향상된 테이블 스타일 */
+.retro-table-enhanced {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.retro-table-enhanced td {
+  padding: 12px;
+  vertical-align: top;
+}
+
+/* 구식 스크롤바 스타일 */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #C0C0C0;
+  border: 1px inset #C0C0C0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #E0E0E0, #B0B0B0);
+  border: 1px outset #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #F0F0F0, #C0C0C0);
+}
+
+/* 접근성 향상 */
+.skip-navigation {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #000080;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.skip-navigation:focus {
+  left: 0;
+  z-index: 1000;
+}
+
+/* 모바일 컨테이너 스타일 */
+.mobile-container {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.mobile-container .sigols-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mobile-container .retro-section {
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.mobile-container .retro-card {
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.mobile-container h1 {
+  font-size: 24px !important;
+}
+
+.mobile-container h2 {
+  font-size: 18px !important;
+}
+
+.mobile-container h3 {
+  font-size: 16px !important;
+}
+
+.mobile-container h4 {
+  font-size: 14px !important;
+}
+
+.mobile-container .retro-text {
+  font-size: 12px !important;
+}
+
+/* 모바일에서 flex/grid 세로 배치로 강제 변경 */
+.mobile-container div[style*="display: flex"] {
+  display: block !important;
+}
+
+.mobile-container div[style*="display: grid"] {
+  display: block !important;
+}
+
+.mobile-container div[style*="gridTemplateColumns"] {
+  display: block !important;
+}
+
+/* RetroHeroSection 모바일 조정 */
+.mobile-container .sigols-container > div[style*="display: flex"] {
+  display: block !important;
+}
+
+.mobile-container .sigols-container > div[style*="display: flex"] > div {
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+/* PlantGallery 모바일 - 2열 그리드로 변경 */
+.mobile-container div[style*="gridTemplateColumns: repeat(3, 1fr)"] {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 10px !important;
+}
+
+/* RetroTestimonials 모바일 - 세로 배치 */
+.mobile-container div[style*="gridTemplateColumns: 1fr 1fr"] {
+  display: block !important;
+}
+
+.mobile-container div[style*="gridTemplateColumns: 1fr 1fr"] > div {
+  margin-bottom: 20px !important;
+}
+
+/* 통계 정보 3열 그리드도 세로로 */
+.mobile-container div[style*="gridTemplateColumns: 1fr 1fr 1fr"] {
+  display: block !important;
+}
+
+.mobile-container div[style*="gridTemplateColumns: 1fr 1fr 1fr"] > div {
+  margin-bottom: 15px !important;
+  text-align: center !important;
+}
+
+/* 모바일 이미지 반응형 */
+.mobile-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 모바일에서 표 스타일 조정 */
+.mobile-container .retro-table {
+  width: 100%;
+  font-size: 11px;
+  display: block !important;
+}
+
+.mobile-container .retro-table td {
+  padding: 8px 4px;
+  display: block !important;
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# 중요한 페이지들
+Allow: /mobile
+
+# Sitemap
+Sitemap: https://lifegarden.o-r.kr/sitemap.xml
+
+# 크롤링 지연 시간 (초)
+Crawl-delay: 1
