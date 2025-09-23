@@ -12,11 +12,11 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    // 모바일 기기 감지
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const isSmallScreen = window.innerWidth <= 768;
+    // 진짜 모바일 폰만 감지 (태블릿 완전 제외)
+    const isMobilePhone = /Android.*Mobile|iPhone|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const isVerySmallScreen = window.innerWidth <= 390; // 390px 이하만 모바일
 
-    if (isMobile || isSmallScreen) {
+    if (isMobilePhone || isVerySmallScreen) {
       router.replace('/mobile');
     }
   }, [router]);
