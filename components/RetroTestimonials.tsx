@@ -43,12 +43,12 @@ export default function RetroTestimonials() {
 
             <div className="retro-text" style={{ fontSize: '14px', lineHeight: '1.6' }}>
               <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#4169e1', marginBottom: '15px', fontStyle: 'italic' }}>
-                "어둠을 밝히는 등불과 같이, 플레이아카데미의 시작을 축복합니다."
+                &ldquo;어둠을 밝히는 등불과 같이, 플레이아카데미의 시작을 축복합니다.&rdquo;
               </div>
 
               배움의 여정은 곧 하나님께서 우리에게 주신 잠재력을 발견하고 실현해나가는 거룩한 과정입니다.
               <br /><br />
-              플레이아카데미는 '배움이 즐거움이 되는 순간, 새로운 가능성이 열린다'는 슬로건 아래,
+              플레이아카데미는 &lsquo;배움이 즐거움이 되는 순간, 새로운 가능성이 열린다&rsquo;는 슬로건 아래,
               모든 개인이 자신의 고유한 가치를 찾아가는 여정을 돕고자 합니다.
               <br /><br />
               양유승 장로님을 비롯한 여러 원장님들의 헌신과 기도로 세워진 이 기관이
@@ -88,16 +88,16 @@ export default function RetroTestimonials() {
 
             <div className="retro-text" style={{ fontSize: '14px', lineHeight: '1.6' }}>
               <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#32cd32', marginBottom: '15px', fontStyle: 'italic' }}>
-                "배움의 즐거움 속에서 피어나는 새로운 가능성을 응원합니다."
+                &ldquo;배움의 즐거움 속에서 피어나는 새로운 가능성을 응원합니다.&rdquo;
               </div>
 
               오랜 시간 교육 현장에서 많은 분들을 만나오면서,
               배움이 개인의 삶을 얼마나 풍요롭게 만들고 새로운 길을 열어주는지를 깊이 깨달아 왔습니다.
               <br /><br />
-              '인생은 자신의 쓸모를 찾아가는 여정'이라는 철학 아래,
+              &lsquo;인생은 자신의 쓸모를 찾아가는 여정&rsquo;이라는 철학 아래,
               배움에 대한 심리적 부담을 덜고 즐거운 과정으로 재해석하려는 시도는 매우 의미 깊습니다.
               <br /><br />
-              플레이아카데미가 각자의 '인생정원'을 더욱 아름답게 가꾸어 나가는
+              플레이아카데미가 각자의 &lsquo;인생정원&rsquo;을 더욱 아름답게 가꾸어 나가는
               소중한 밑거름이 되기를 바라며, 힘찬 격려의 박수를 보냅니다.
             </div>
           </div>
