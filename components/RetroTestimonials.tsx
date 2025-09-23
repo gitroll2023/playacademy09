@@ -28,8 +28,10 @@ export default function RetroTestimonials() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement.style.backgroundColor = '#4169e1';
-                    e.currentTarget.parentElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: white; font-size: 14px; font-weight: bold;">🙏</div>';
+                    if (e.currentTarget.parentElement) {
+                      e.currentTarget.parentElement.style.backgroundColor = '#4169e1';
+                      e.currentTarget.parentElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: white; font-size: 14px; font-weight: bold;">🙏</div>';
+                    }
                   }}
                 />
               </div>
@@ -73,8 +75,10 @@ export default function RetroTestimonials() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement.style.backgroundColor = '#32cd32';
-                    e.currentTarget.parentElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: white; font-size: 14px; font-weight: bold;">👩‍🏫</div>';
+                    if (e.currentTarget.parentElement) {
+                      e.currentTarget.parentElement.style.backgroundColor = '#32cd32';
+                      e.currentTarget.parentElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: white; font-size: 14px; font-weight: bold;">👩‍🏫</div>';
+                    }
                   }}
                 />
               </div>
