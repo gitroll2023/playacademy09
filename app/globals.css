@@ -495,21 +495,34 @@
   width: 100% !important;
 }
 
-/* 모바일에서 모든 flex 컨테이너를 block으로 */
-.mobile-container div[style*="display: flex"] {
+/* 모바일에서 모든 flex/grid 컨테이너를 block으로 강제 */
+.mobile-container div[style*="display: flex"],
+.mobile-container div[style*="display: grid"],
+.mobile-container div[style*="gridTemplateColumns"] {
   display: block !important;
+  grid-template-columns: none !important;
+  grid-template-rows: none !important;
+  flex-direction: column !important;
 }
 
-.mobile-container div[style*="display: flex"] > div {
+.mobile-container div[style*="display: flex"] > div,
+.mobile-container div[style*="display: grid"] > div {
   width: 100% !important;
   margin-bottom: 15px !important;
+  flex: none !important;
 }
 
-/* PlantGallery 모바일 - 2열 그리드로 변경 */
+/* PlantGallery 모바일 - 1열 세로 배치로 변경 */
 .mobile-container div[style*="gridTemplateColumns: repeat(3, 1fr)"] {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
-  gap: 10px !important;
+  display: block !important;
+  grid-template-columns: none !important;
+  gap: 15px !important;
+}
+
+.mobile-container div[style*="gridTemplateColumns: repeat(3, 1fr)"] > * {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+  display: block !important;
 }
 
 /* RetroAboutSection & RetroTestimonials 모바일 - 세로 배치 */
@@ -552,6 +565,28 @@
 .mobile-container img {
   max-width: 100%;
   height: auto;
+}
+
+/* 모바일 전체 강제 세로 배치 */
+.mobile-container * {
+  max-width: 100% !important;
+}
+
+.mobile-container div[style],
+.mobile-container section[style] {
+  display: block !important;
+  grid-template-columns: none !important;
+  grid-template-rows: none !important;
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+.mobile-container div[style] > *,
+.mobile-container section[style] > * {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+  display: block !important;
+  flex: none !important;
 }
 
 /* 모바일에서 표 스타일 조정 */
