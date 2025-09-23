@@ -1,6 +1,3 @@
-'use client';
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import RetroHeader from "@/components/RetroHeader";
 import RetroHeroSection from "@/components/RetroHeroSection";
 import RetroAboutSection from "@/components/RetroAboutSection";
@@ -9,17 +6,6 @@ import RetroTestimonials from "@/components/RetroTestimonials";
 import RetroDirector from "@/components/RetroDirector";
 
 export default function Home() {
-  const router = useRouter();
-
-  useEffect(() => {
-    // 진짜 모바일 폰만 감지 (태블릿 완전 제외)
-    const isMobilePhone = /Android.*Mobile|iPhone|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const isVerySmallScreen = window.innerWidth <= 390; // 390px 이하만 모바일
-
-    if (isMobilePhone || isVerySmallScreen) {
-      router.replace('/mobile');
-    }
-  }, [router]);
   return (
     <div style={{ minHeight: '100vh' }}>
       <RetroHeader />
@@ -186,38 +172,6 @@ export default function Home() {
               Copyright © 2014 인생정원 All Rights Reserved. | 이사장: 양유승 | 비영리단체 승인 대기중
             </div>
 
-            {/* PC/모바일 버전 선택 */}
-            <div style={{ marginTop: '20px', paddingTop: '15px', borderTop: '1px solid #ddd' }}>
-              <div style={{ fontSize: '12px', marginBottom: '10px', color: '#888' }}>버전 선택</div>
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
-                <span
-                  style={{
-                    padding: '8px 15px',
-                    background: '#666666',
-                    border: '1px solid #666666',
-                    borderRadius: '4px',
-                    color: 'white',
-                    fontSize: '12px'
-                  }}
-                >
-                  PC 버전
-                </span>
-                <a
-                  href="/mobile"
-                  style={{
-                    padding: '8px 15px',
-                    background: '#ffffff',
-                    border: '1px solid #ddd',
-                    borderRadius: '4px',
-                    textDecoration: 'none',
-                    color: '#333',
-                    fontSize: '12px'
-                  }}
-                >
-                  모바일 버전
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </footer>
