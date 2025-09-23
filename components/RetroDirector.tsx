@@ -29,8 +29,10 @@ export default function RetroDirector() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement.style.backgroundColor = '#deb887';
-                    e.currentTarget.parentElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #8b4513; font-size: 24px; font-weight: bold;">양유승</div>';
+                    if (e.currentTarget.parentElement) {
+                      e.currentTarget.parentElement.style.backgroundColor = '#deb887';
+                      e.currentTarget.parentElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #8b4513; font-size: 24px; font-weight: bold;">양유승</div>';
+                    }
                   }}
                 />
               </div>
