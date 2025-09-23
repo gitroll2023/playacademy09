@@ -79,10 +79,6 @@ export default function RootLayout({
         <meta name="google-site-verification" content="google-site-verification-code" />
         <meta name="naver-site-verification" content="naver-site-verification-code" />
 
-        {/* 파비콘 설정 */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
 
         {/* Open Graph 이미지 */}
         <meta property="og:image" content="https://lifegarden.o-r.kr/og-image.jpg" />
