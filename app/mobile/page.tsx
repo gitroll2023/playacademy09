@@ -8,7 +8,7 @@ import RetroDirector from "@/components/RetroDirector";
 export const metadata: Metadata = {
   title: '인생정원 - Life Garden (모바일)',
   description: '화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체',
-  viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+  viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover'
 };
 
 export default function MobilePage() {
@@ -41,7 +41,7 @@ export default function MobilePage() {
         </div>
       </div>
 
-      <div style={{ padding: '0 10px' }}>
+      <div style={{ padding: '0 15px', width: '100%', boxSizing: 'border-box' }}>
         <RetroHeroSection />
 
         {/* 섹션 구분선 */}

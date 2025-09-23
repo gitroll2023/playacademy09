@@ -361,6 +361,11 @@
   overflow-x: hidden;
 }
 
+.mobile-container * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 .mobile-container .sigols-container {
   width: 100%;
   max-width: 100%;
@@ -399,17 +404,21 @@
   font-size: 12px !important;
 }
 
-/* 모바일에서 flex/grid 세로 배치로 강제 변경 */
-.mobile-container div[style*="display: flex"] {
+/* 모바일에서 특정 레이아웃만 세로 배치로 변경 */
+.mobile-container .profile-grid {
   display: block !important;
+  grid-template-columns: none !important;
 }
 
-.mobile-container div[style*="display: grid"] {
+.mobile-container .expertise-grid {
   display: block !important;
+  grid-template-columns: none !important;
 }
 
-.mobile-container div[style*="gridTemplateColumns"] {
-  display: block !important;
+.mobile-container .profile-grid > div,
+.mobile-container .expertise-grid > div {
+  width: 100% !important;
+  margin-bottom: 20px !important;
 }
 
 /* RetroHeroSection 모바일 조정 */
@@ -432,20 +441,36 @@
 /* RetroTestimonials 모바일 - 세로 배치 */
 .mobile-container div[style*="gridTemplateColumns: 1fr 1fr"] {
   display: block !important;
+  width: 100% !important;
 }
 
 .mobile-container div[style*="gridTemplateColumns: 1fr 1fr"] > div {
   margin-bottom: 20px !important;
+  width: 100% !important;
+  padding: 0 !important;
 }
 
 /* 통계 정보 3열 그리드도 세로로 */
 .mobile-container div[style*="gridTemplateColumns: 1fr 1fr 1fr"] {
   display: block !important;
+  width: 100% !important;
 }
 
 .mobile-container div[style*="gridTemplateColumns: 1fr 1fr 1fr"] > div {
   margin-bottom: 15px !important;
   text-align: center !important;
+  width: 100% !important;
+}
+
+/* 4열 그리드 (전문분야) 세로 배치 */
+.mobile-container div[style*="gridTemplateColumns: 1fr 1fr 1fr 1fr"] {
+  display: block !important;
+  width: 100% !important;
+}
+
+.mobile-container div[style*="gridTemplateColumns: 1fr 1fr 1fr 1fr"] > div {
+  margin-bottom: 15px !important;
+  width: 100% !important;
 }
 
 /* 모바일 이미지 반응형 */
