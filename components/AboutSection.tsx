@@ -6,7 +6,7 @@ export default function AboutSection() {
           <span className="inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-4">
             ABOUT US
           </span>
-          <h2 className="text-5xl font-bold text-gray-900 mb-4">인생정원</h2>
+          <h2 className="text-5xl font-bold text-gray-900 mb-4">라이프가든</h2>
           <p className="text-xl text-gray-600">Life Garden</p>
         </div>
 
@@ -17,7 +17,7 @@ export default function AboutSection() {
               함께 성장하는 공동체
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              인생정원은 화훼, 청년, 교육 등 다양한 분야에서 활동하며,
+              라이프가든은 화훼, 청년, 교육 등 다양한 분야에서 활동하며,
               개인의 성장과 사회 발전에 기여하는 비영리단체입니다.
               40여 년간 식물을 돌보며 터득한 생명의 가치와 인내의 지혜를 바탕으로,
               다음 세대가 자신의 가능성을 발견하고 삶의 주체로 성장할 수 있도록 지원합니다.
@@ -94,7 +94,7 @@ export default function AboutSection() {
                   </div>
                   <div>
                     <p className="font-bold text-gray-900">양유승 이사장</p>
-                    <p className="text-gray-600">인생정원 설립자</p>
+                    <p className="text-gray-600">라이프가든 설립자</p>
                   </div>
                 </div>
               </div>

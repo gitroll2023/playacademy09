@@ -84,11 +84,11 @@ export default function RootLayout({
         <meta property="og:image" content="https://lifegarden.o-r.kr/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="인생정원 - Life Garden" />
+        <meta property="og:image:alt" content="라이프가든 - Life Garden" />
 
         {/* Twitter 카드 이미지 */}
         <meta name="twitter:image" content="https://lifegarden.o-r.kr/og-image.jpg" />
-        <meta name="twitter:image:alt" content="인생정원 - Life Garden" />
+        <meta name="twitter:image:alt" content="라이프가든 - Life Garden" />
 
         {/* JSON-LD 구조화 데이터 */}
         <script

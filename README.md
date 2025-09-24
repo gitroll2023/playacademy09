@@ -1,4 +1,4 @@
-# 인생정원 (Life Garden) - 플레이아카데미
+# 라이프가든 (Life Garden) - 플레이아카데미
 
 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체
 
@@ -24,4 +24,4 @@
 - 이사장: 양유승
 
 ## 라이선스
-Copyright © 2014 인생정원 All Rights Reserved.
+Copyright © 2014 라이프가든 All Rights Reserved.

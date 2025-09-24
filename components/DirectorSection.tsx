@@ -7,7 +7,7 @@ export default function DirectorSection() {
             DIRECTOR PROFILE
           </span>
           <h2 className="text-5xl font-bold text-gray-900 mb-4">이사장 소개</h2>
-          <p className="text-xl text-gray-600">인생정원을 이끄는 리더십</p>
+          <p className="text-xl text-gray-600">라이프가든을 이끄는 리더십</p>
         </div>
 
         <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl p-16">
@@ -21,7 +21,7 @@ export default function DirectorSection() {
                   </div>
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">양유승 이사장</h3>
-                    <p className="text-gray-600 mb-4">인생정원 설립자</p>
+                    <p className="text-gray-600 mb-4">라이프가든 설립자</p>
                     <div className="flex flex-col gap-2 text-sm text-gray-600">
                       <div className="flex items-center gap-2 justify-center">
                         <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,7 +72,7 @@ export default function DirectorSection() {
                     <li className="flex items-start gap-2">
                       <span className="text-green-600 mt-1">•</span>
                       <div>
-                        <strong>現 비영리단체 인생정원 이사장</strong>
+                        <strong>現 비영리단체 라이프가든 이사장</strong>
                         <p className="text-sm text-gray-600">화훼, 교육, 청년, 신앙의 가치 통합</p>
                       </div>
                     </li>
@@ -135,7 +135,7 @@ export default function DirectorSection() {
                 </p>
                 <div className="bg-white/50 rounded-xl p-6 border-l-4 border-green-600">
                   <p className="text-gray-800 font-medium italic">
-                    "인생정원에서 청년들이 자신의 '쓸모'를 발견하고,
+                    "라이프가든에서 청년들이 자신의 '쓸모'를 발견하고,
                     즐거운 배움을 통해 인생이라는 정원을 스스로 가꾸어 나가는
                     주체적인 존재로 성장할 수 있도록,
                     기꺼이 든든한 거름이자 뿌리가 되어주고자 합니다."

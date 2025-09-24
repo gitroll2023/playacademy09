@@ -28,7 +28,7 @@ export default function Header() {
               <span className="text-white font-bold text-xl">인</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-gray-800">인생정원</h1>
+              <h1 className="text-2xl font-bold text-gray-800">라이프가든</h1>
               <p className="text-xs text-gray-600">Life Garden</p>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Header() {
               href="#about"
               className="text-gray-700 hover:text-green-600 transition-colors font-medium"
             >
-              인생정원 소개
+              라이프가든 소개
             </Link>
             <Link
               href="#academy"

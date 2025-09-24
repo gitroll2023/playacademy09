@@ -16,7 +16,7 @@ export default function HeroSection() {
           <h1 className="text-7xl font-bold text-gray-900 mb-6 leading-tight">
             삶의 정원을<br />
             <span className="text-green-600">함께 가꾸어가는</span><br />
-            인생정원
+            라이프가든
           </h1>
 
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">

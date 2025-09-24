@@ -9,7 +9,7 @@ export default function Footer() {
                 <span className="text-white font-bold text-xl">인</span>
               </div>
               <div>
-                <h2 className="text-2xl font-bold">인생정원</h2>
+                <h2 className="text-2xl font-bold">라이프가든</h2>
                 <p className="text-xs text-gray-400">Life Garden</p>
               </div>
             </div>
@@ -25,7 +25,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a href="#about" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  인생정원 소개
+                  라이프가든 소개
                 </a>
               </li>
               <li>
@@ -85,7 +85,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800">
           <div className="flex justify-between items-center">
             <div className="text-gray-400 text-sm">
-              <p>© 2024 인생정원. All rights reserved.</p>
+              <p>© 2024 라이프가든. All rights reserved.</p>
               <p className="mt-2">
                 <span className="text-gray-500">비영리단체 승인 대기 중</span> ·
                 <span className="text-gray-500 ml-2">이사장: 양유승</span>
@@ -111,7 +111,7 @@ export default function Footer() {
             <h4 className="text-yellow-500 font-bold">후원 안내</h4>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed">
-            인생정원과 플레이아카데미는 여러분의 후원으로 운영됩니다.
+            라이프가든과 플레이아카데미는 여러분의 후원으로 운영됩니다.
             청년들의 성장과 교육을 위한 귀한 사역에 동참해 주세요.
             작은 관심과 후원이 큰 변화를 만들어갑니다.
           </p>
