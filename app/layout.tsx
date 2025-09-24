@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://lifegarden.o-r.kr'),
+  metadataBase: new URL('https://lifegarden.co.kr'),
   alternates: {
-    canonical: 'https://lifegarden.o-r.kr',
+    canonical: 'https://lifegarden.co.kr',
   },
   openGraph: {
     title: "라이프가든 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
     description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
-    url: 'https://lifegarden.o-r.kr',
+    url: 'https://lifegarden.co.kr',
     siteName: '라이프가든',
     locale: 'ko_KR',
     type: 'website',
@@ -75,19 +75,19 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <link rel="canonical" href="https://lifegarden.o-r.kr" />
+        <link rel="canonical" href="https://lifegarden.co.kr" />
         <meta name="google-site-verification" content="google-site-verification-code" />
         <meta name="naver-site-verification" content="naver-site-verification-code" />
 
 
         {/* Open Graph 이미지 */}
-        <meta property="og:image" content="https://lifegarden.o-r.kr/og-image.jpg" />
+        <meta property="og:image" content="https://lifegarden.co.kr/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="라이프가든 - Life Garden" />
 
         {/* Twitter 카드 이미지 */}
-        <meta name="twitter:image" content="https://lifegarden.o-r.kr/og-image.jpg" />
+        <meta name="twitter:image" content="https://lifegarden.co.kr/og-image.jpg" />
         <meta name="twitter:image:alt" content="라이프가든 - Life Garden" />
 
         {/* JSON-LD 구조화 데이터 */}
@@ -99,14 +99,14 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "라이프가든",
               "alternateName": "Life Garden",
-              "url": "https://lifegarden.o-r.kr",
-              "logo": "https://lifegarden.o-r.kr/favicon.png",
-              "image": "https://lifegarden.o-r.kr/og-image.jpg",
+              "url": "https://lifegarden.co.kr",
+              "logo": "https://lifegarden.co.kr/favicon.png",
+              "image": "https://lifegarden.co.kr/og-image.jpg",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "",
                 "contactType": "customer service",
-                "email": "contact@lifegarden.o-r.kr"
+                "email": "contact@lifegarden.co.kr"
               },
               "address": {
                 "@type": "PostalAddress",

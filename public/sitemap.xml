@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lifegarden.o-r.kr</loc>
-    <lastmod>2024-09-23</lastmod>
+    <loc>https://lifegarden.co.kr</loc>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.o-r.kr" />
-    <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://lifegarden.o-r.kr/mobile" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr" />
   </url>
   <url>
-    <loc>https://lifegarden.o-r.kr/mobile</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://lifegarden.co.kr/#about</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.o-r.kr/mobile" />
+  </url>
+  <url>
+    <loc>https://lifegarden.co.kr/#director</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lifegarden.co.kr/#academy</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lifegarden.co.kr/#testimonials</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lifegarden.co.kr/#contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
