@@ -98,21 +98,21 @@ export default function RetroDirector() {
         {/* 교육 비전 */}
         <div className="retro-card" style={{ padding: '30px', background: '#fff8dc', border: '1px solid #daa520', borderRadius: '3px', marginBottom: '30px' }}>
           <h3 style={{ fontSize: '18px', color: '#daa520', fontWeight: 'bold', marginBottom: '20px', textAlign: 'center' }}>
-            🌟 교육 후원에 대한 비전
+            🌟 교육 후원에 대한 비전 (敎育 後援 展望)
           </h3>
 
           <div className="retro-text" style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '20px' }}>
-            양유승 이사장은 오랜 시간 식물을 돌보며 생명 하나하나가 가진 고유한 가치와 잠재력을 깨달았습니다.
+            양유승 이사장은 오랜 세월(歲月) 식물을 돌보며 생명(生命) 하나하나가 가진 고유한 가치(價値)와 잠재력을 깨달았습니다.
             <br /><br />
-            그는 식물이 좋은 토양과 햇빛, 그리고 정성 어린 보살핌 속에서 가장 아름답게 피어나듯,
-            사람 또한 건강한 공동체와 올바른 가치관 교육 안에서 자신의 재능을 마음껏 펼칠 수 있다고 믿습니다.
+            그는 식물이 좋은 토양(土壤)과 햇빛, 그리고 정성(精誠) 어린 보살핌 속에서 가장 아름답게 피어나듯,
+            사람 또한 건강한 공동체(共同體)와 올바른 가치관(價値觀) 교육 안에서 자신의 재능(才能)을 마음껏 펼칠 수 있다고 믿습니다.
           </div>
 
           <div style={{ background: '#ffffe0', border: '1px solid #ffd700', borderRadius: '3px', padding: '20px', textAlign: 'center' }}>
             <div style={{ fontSize: '16px', color: '#8b4513', fontStyle: 'italic', fontWeight: 'bold', lineHeight: '1.6' }}>
-              "라이프가든에서 청년들이 자신의 '쓸모'를 발견하고,<br />
-              즐거운 배움을 통해 인생이라는 정원을 스스로 가꾸어 나가는<br />
-              주체적인 존재로 성장할 수 있도록,<br />
+              "라이프가든(生命庭園)에서 청년(靑年)들이 자신의 쓸모를 발견하고,<br />
+              즐거운 배움을 통해 인생(人生)이라는 정원을 스스로 가꾸어 나가는<br />
+              주체적인 존재로 성장(成長)할 수 있도록,<br />
               기꺼이 든든한 거름이자 뿌리가 되어주고자 합니다."
             </div>
             <div style={{ fontSize: '12px', color: '#666', marginTop: '15px' }}>
@@ -125,26 +125,26 @@ export default function RetroDirector() {
         <div className="expertise-grid" style={{ gap: '20px' }}>
           <div className="retro-card" style={{ padding: '25px', background: '#e6ffe6', border: '1px solid #228b22', borderRadius: '3px', textAlign: 'center' }}>
             <div style={{ fontSize: '40px', marginBottom: '15px' }}>🌱</div>
-            <h4 style={{ fontSize: '16px', color: '#006400', marginBottom: '10px', fontWeight: 'bold' }}>화훼 전문성</h4>
+            <h4 style={{ fontSize: '16px', color: '#006400', marginBottom: '10px', fontWeight: 'bold' }}>화훼 전문성 (花卉 專門)</h4>
             <div style={{ fontSize: '13px', color: '#666' }}>40년 식물원 운영 경험</div>
           </div>
 
           <div className="retro-card" style={{ padding: '25px', background: '#e6f3ff', border: '1px solid #4169e1', borderRadius: '3px', textAlign: 'center' }}>
             <div style={{ fontSize: '40px', marginBottom: '15px' }}>📚</div>
-            <h4 style={{ fontSize: '16px', color: '#0000cd', marginBottom: '10px', fontWeight: 'bold' }}>교육 철학</h4>
+            <h4 style={{ fontSize: '16px', color: '#0000cd', marginBottom: '10px', fontWeight: 'bold' }}>교육 철학 (敎育 哲學)</h4>
             <div style={{ fontSize: '13px', color: '#666' }}>생명 가치 기반 교육</div>
           </div>
 
           <div className="retro-card" style={{ padding: '25px', background: '#ffe6ff', border: '1px solid #da70d6', borderRadius: '3px', textAlign: 'center' }}>
             <div style={{ fontSize: '40px', marginBottom: '15px' }}>💚</div>
-            <h4 style={{ fontSize: '16px', color: '#8b008b', marginBottom: '10px', fontWeight: 'bold' }}>사회 공헌</h4>
+            <h4 style={{ fontSize: '16px', color: '#8b008b', marginBottom: '10px', fontWeight: 'bold' }}>사회 공헌 (社會 貢獻)</h4>
             <div style={{ fontSize: '13px', color: '#666' }}>비영리 활동 추진</div>
           </div>
 
           <div className="retro-card" style={{ padding: '25px', background: '#ffe4b5', border: '1px solid #ff8c00', borderRadius: '3px', textAlign: 'center' }}>
             <div style={{ fontSize: '40px', marginBottom: '15px' }}>🤝</div>
-            <h4 style={{ fontSize: '16px', color: '#ff6600', marginBottom: '10px', fontWeight: 'bold' }}>청년 후원</h4>
-            <div style={{ fontSize: '13px', color: '#666' }}>차세대 리더 육성</div>
+            <h4 style={{ fontSize: '16px', color: '#ff6600', marginBottom: '10px', fontWeight: 'bold' }}>청년 후원 (靑年 後援)</h4>
+            <div style={{ fontSize: '13px', color: '#666' }}>차세대(次世代) 리더 육성</div>
           </div>
         </div>
       </div>
