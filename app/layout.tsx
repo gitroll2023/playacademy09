@@ -14,12 +14,12 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "인생정원 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
-  description: "인생정원은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
-  keywords: "인생정원, Life Garden, 비영리단체, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주",
-  authors: [{ name: "인생정원" }],
-  creator: "인생정원",
-  publisher: "인생정원",
+  title: "라이프가든 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
+  description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
+  keywords: "라이프가든, Life Garden, 비영리단체, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주",
+  authors: [{ name: "라이프가든" }],
+  creator: "라이프가든",
+  publisher: "라이프가든",
   formatDetection: {
     email: false,
     address: false,
@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     canonical: 'https://lifegarden.o-r.kr',
   },
   openGraph: {
-    title: "인생정원 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
-    description: "인생정원은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
+    title: "라이프가든 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
+    description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
     url: 'https://lifegarden.o-r.kr',
-    siteName: '인생정원',
+    siteName: '라이프가든',
     locale: 'ko_KR',
     type: 'website',
     images: [
@@ -41,14 +41,14 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: '인생정원 - Life Garden',
+        alt: '라이프가든 - Life Garden',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "인생정원 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
-    description: "인생정원은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다.",
+    title: "라이프가든 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
+    description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다.",
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -97,7 +97,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "인생정원",
+              "name": "라이프가든",
               "alternateName": "Life Garden",
               "url": "https://lifegarden.o-r.kr",
               "logo": "https://lifegarden.o-r.kr/favicon.png",
@@ -118,8 +118,8 @@ export default function RootLayout({
                 "@type": "Person",
                 "name": "양유승"
               },
-              "description": "인생정원은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다.",
-              "keywords": "인생정원, Life Garden, 비영리단체, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주"
+              "description": "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다.",
+              "keywords": "라이프가든, Life Garden, 비영리단체, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주"
             })
           }}
         />

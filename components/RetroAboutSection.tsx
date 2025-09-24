@@ -3,10 +3,10 @@
 export default function RetroAboutSection() {
   return (
     <div id="about" className="sigols-container" style={{ margin: '40px auto' }}>
-      {/* 인생정원 소개 섹션 */}
+      {/* 라이프가든 소개 섹션 */}
       <div className="retro-section" style={{ padding: '30px', borderRadius: '3px' }}>
         <h2 className="retro-title" style={{ fontSize: '24px', textAlign: 'center', marginBottom: '30px', borderBottom: '2px solid #ff3300', paddingBottom: '15px' }}>
-          인생정원 소개
+          라이프가든 소개
         </h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', marginBottom: '30px' }}>
@@ -19,7 +19,7 @@ export default function RetroAboutSection() {
             </div>
 
             <div className="retro-text" style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '20px' }}>
-              인생정원은 화훼, 청년, 교육 등 다양한 분야에서 활동하며,
+              라이프가든은 화훼, 청년, 교육 등 다양한 분야에서 활동하며,
               개인의 성장과 사회 발전에 기여하는 비영리단체입니다.
               <br /><br />
               40여 년간 식물을 돌보며 터득한 생명의 가치와 인내의 지혜를 바탕으로,
@@ -72,7 +72,7 @@ export default function RetroAboutSection() {
                 양유승
               </div>
               <div style={{ fontSize: '13px', color: '#666' }}>
-                인생정원 설립자<br />
+                라이프가든 설립자<br />
                 남평 식물원 원장
               </div>
             </div>

@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div style={{ textAlign: 'center', marginBottom: '25px' }}>
             <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#666', marginBottom: '10px' }}>
-              인생정원 산하기관
+              라이프가든 산하기관
             </div>
             <div style={{ fontSize: '18px', fontWeight: 'bold', color: '#333', fontStyle: 'italic' }}>
               &ldquo;배움이 즐거움이 되는 순간, 새로운 가능성이 열립니다&rdquo;
@@ -169,7 +169,7 @@ export default function Home() {
               이메일: contact@lifegarden.o-r.kr
             </div>
             <div style={{ marginTop: '15px', paddingTop: '15px', borderTop: '1px solid #ddd' }}>
-              Copyright © 2014 인생정원 All Rights Reserved. | 이사장: 양유승 | 비영리단체 승인 대기중
+              Copyright © 2014 라이프가든 All Rights Reserved. | 이사장: 양유승 | 비영리단체 승인 대기중
             </div>
 
           </div>

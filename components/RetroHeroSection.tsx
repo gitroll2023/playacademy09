@@ -6,7 +6,7 @@ export default function RetroHeroSection() {
       {/* 메인 타이틀 영역 */}
       <div style={{ textAlign: 'center', marginBottom: '50px' }}>
         <h1 style={{ fontSize: '48px', fontWeight: 'bold', color: '#4CAF50', margin: '0 0 10px 0', fontFamily: 'Georgia, serif' }}>
-          인생정원
+          라이프가든
         </h1>
         <h2 style={{ fontSize: '24px', color: '#666', margin: '0 0 30px 0', fontStyle: 'italic' }}>
           Life Garden
@@ -43,9 +43,9 @@ export default function RetroHeroSection() {
 
             <div className="retro-text" style={{ fontSize: '14px', lineHeight: '1.6' }}>
               <p><strong>안녕하십니까!</strong></p>
-              <p>인생정원 홈페이지 방문을 진심으로 환영합니다.</p>
+              <p>라이프가든 홈페이지 방문을 진심으로 환영합니다.</p>
               <br />
-              <p>저희 인생정원은 화훼, 청년, 교육의 가치를 통합하여</p>
+              <p>저희 라이프가든은 화훼, 청년, 교육의 가치를 통합하여</p>
               <p>개인의 성장과 사회 발전에 기여하는 비영리단체입니다.</p>
               <br />
               <p><strong>● 이사장:</strong> 양유승</p>
@@ -95,7 +95,7 @@ export default function RetroHeroSection() {
 
       {/* 하단 정보 */}
       <div style={{ textAlign: 'center', borderTop: '1px solid #ddd', paddingTop: '20px', color: '#999', fontSize: '11px' }}>
-        Life Garden - 인생정원에서 꿈을 키워갑니다
+        Life Garden - 라이프가든에서 꿈을 키워갑니다
       </div>
     </div>
   );

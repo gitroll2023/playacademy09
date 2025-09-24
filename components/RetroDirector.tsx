@@ -41,7 +41,7 @@ export default function RetroDirector() {
                 양유승 이사장
               </h3>
               <div style={{ fontSize: '13px', color: '#666' }}>
-                인생정원 설립자<br />
+                라이프가든 설립자<br />
                 남평 식물원 원장
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function RetroDirector() {
                 📋 주요 약력
               </h4>
               <div className="retro-text" style={{ fontSize: '13px', lineHeight: '1.8' }}>
-                <strong>• 現 비영리단체 인생정원 이사장</strong> (승인 대기)<br />
+                <strong>• 現 비영리단체 라이프가든 이사장</strong> (승인 대기)<br />
                 &nbsp;&nbsp;화훼, 교육, 청년, 신앙의 가치 통합<br />
                 <br />
                 <strong>• 現 플레이아카데미 핵심 후원자 및 고문</strong><br />
@@ -110,7 +110,7 @@ export default function RetroDirector() {
 
           <div style={{ background: '#ffffe0', border: '1px solid #ffd700', borderRadius: '3px', padding: '20px', textAlign: 'center' }}>
             <div style={{ fontSize: '16px', color: '#8b4513', fontStyle: 'italic', fontWeight: 'bold', lineHeight: '1.6' }}>
-              "인생정원에서 청년들이 자신의 '쓸모'를 발견하고,<br />
+              "라이프가든에서 청년들이 자신의 '쓸모'를 발견하고,<br />
               즐거운 배움을 통해 인생이라는 정원을 스스로 가꾸어 나가는<br />
               주체적인 존재로 성장할 수 있도록,<br />
               기꺼이 든든한 거름이자 뿌리가 되어주고자 합니다."
