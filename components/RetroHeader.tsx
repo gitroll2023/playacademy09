@@ -15,7 +15,7 @@ export default function RetroHeader() {
                 fontFamily: 'Gungsuh, 궁서, GungsuhChe, 궁서체, Batang, 바탕, Georgia, serif',
                 lineHeight: '1'
               }}>
-                生命庭園
+                라이프가든
               </div>
               <div style={{
                 fontSize: '12px',
