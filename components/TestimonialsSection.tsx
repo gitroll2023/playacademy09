@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
               <h3 className="text-2xl font-bold text-blue-700 mb-2">
                 정훈오 목사님
               </h3>
-              <p className="text-blue-600 font-medium">초교파 목사</p>
+              <p className="text-blue-600 font-medium">목회자</p>
             </div>
 
             <div className="space-y-6">
@@ -139,7 +139,7 @@ export default function TestimonialsSection() {
                     <span className="text-2xl">🙏</span>
                   </div>
                   <div className="text-3xl font-bold text-slate-800 mb-2">10+</div>
-                  <div className="text-sm font-semibold text-slate-600">초교파 목회자 후원</div>
+                  <div className="text-sm font-semibold text-slate-600">목회자</div>
                 </div>
               </div>
               

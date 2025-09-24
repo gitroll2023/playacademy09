@@ -52,7 +52,7 @@ export default function PlayAcademySection() {
                   후원 기관
                 </h3>
                 <p className="text-blue-600 mb-4">
-                  초교파 목사님과 원로 장로님이 후원하는 성경 교육 기관
+                  목사님과 원로 장로님이 후원하는 성경 교육 기관
                 </p>
                 <p className="text-sm text-blue-500">
                   양유승 장로님을 필두로 원장님들이 마음을 모아 후원하는 중입니다.

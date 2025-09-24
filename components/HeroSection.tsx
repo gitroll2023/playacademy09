@@ -100,7 +100,7 @@ export default function HeroSection() {
                 <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl">🙏</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">초교파 목회자 후원</h3>
+                <h3 className="text-xl font-bold mb-4">목회자 후원</h3>
                 <p className="text-slate-300 text-sm leading-relaxed">
                   다양한 교단의 목회자들과 함께 
                   <span className="block font-semibold text-white mt-1">교육의 새로운 지평을 열어갑니다</span>

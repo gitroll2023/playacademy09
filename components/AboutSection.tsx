@@ -63,7 +63,7 @@ export default function AboutSection() {
               <div className="text-sm text-muted-foreground">청년 교육 지원</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20 text-center col-span-2">
-              <div className="text-4xl font-bold text-primary mb-2">초교파</div>
+              <div className="text-4xl font-bold text-primary mb-2">목회자</div>
               <div className="text-sm text-muted-foreground">목회자 후원</div>
             </div>
           </div>
