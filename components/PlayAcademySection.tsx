@@ -12,7 +12,7 @@ export default function PlayAcademySection() {
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              플레이아카데미
+              아카데미
           </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -23,12 +23,21 @@ export default function PlayAcademySection() {
         <div className="max-w-6xl mx-auto">
           {/* 로고 섹션 */}
           <div className="text-center mb-16">
-            <div className="inline-block p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20 mb-8">
-              <img
-                src="/playacademy.png"
-                alt="플레이아카데미 로고"
-                className="max-w-sm h-auto mx-auto"
-              />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
+              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+                <img
+                  src="/playacademy.png"
+                  alt="플레이아카데미 로고"
+                  className="w-full h-auto mx-auto"
+                />
+              </div>
+              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+                <img
+                  src="/weedacademy.png"
+                  alt="위드아카데미 로고"
+                  className="w-full h-auto mx-auto"
+                />
+              </div>
             </div>
             <div className="space-y-4">
               <div className="text-lg font-semibold text-primary">
