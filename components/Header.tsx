@@ -13,7 +13,7 @@ export default function Header() {
   const navItems = [
     { href: "#about", label: "라이프가든 소개" },
     { href: "#director", label: "이사장 소개" },
-    { href: "#academy", label: "플레이아카데미" },
+    { href: "#academy", label: "아카데미" },
     { href: "#testimonials", label: "추천의 말씀" },
     { href: "#contact", label: "문의하기" },
   ];

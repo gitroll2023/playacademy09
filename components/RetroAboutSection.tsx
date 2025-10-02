@@ -38,7 +38,7 @@ export default function RetroAboutSection() {
                 </div>
                 <div style={{ marginBottom: '10px' }}>
                   <strong>② 교육 프로그램 운영</strong><br />
-                  플레이아카데미를 통한 혁신적 교육
+                  아카데미를 통한 혁신적 교육
                 </div>
                 <div>
                   <strong>③ 청년 지원 활동</strong><br />

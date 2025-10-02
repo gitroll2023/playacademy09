@@ -85,7 +85,8 @@ export default function RetroHeroSection() {
               ※ 공지사항 ※
             </h4>
             <div style={{ fontSize: '13px', lineHeight: '1.6', color: '#333' }}>
-              • 플레이아카데미 2025년 9월 신규 교육생 모집<br />
+              • 플레이아카데미 9월 모집 마감 (운영중)<br />
+              • 위드아카데미 10월 신규 교육생 모집<br />
               • 비영리단체 승인 절차 진행중<br />
               • 후원자 여러분께 감사드립니다
             </div>

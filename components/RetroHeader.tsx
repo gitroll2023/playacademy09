@@ -33,7 +33,7 @@ export default function RetroHeader() {
           <ul className="sigols-nav-links">
             <li><a href="#about">라이프가든 소개</a></li>
             <li><a href="#director">이사장 소개</a></li>
-            <li><a href="#academy">플레이아카데미</a></li>
+            <li><a href="#academy">아카데미</a></li>
             <li><a href="#testimonials">추천의 말씀</a></li>
             <li><a href="#contact">문의하기</a></li>
           </ul>

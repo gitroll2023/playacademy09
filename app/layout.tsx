@@ -15,8 +15,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "라이프가든 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
-  description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
-  keywords: "라이프가든, Life Garden, 비영리단체, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주",
+  description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 위드아카데미, 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
+  keywords: "라이프가든, Life Garden, 비영리단체, 위드아카데미, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주",
   authors: [{ name: "라이프가든" }],
   creator: "라이프가든",
   publisher: "라이프가든",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "라이프가든 | Life Garden - 화훼, 청년, 교육을 통한 비영리단체",
-    description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
+    description: "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다. 위드아카데미, 플레이아카데미를 통해 배움이 즐거움이 되는 교육을 제공합니다.",
     url: 'https://lifegarden.co.kr',
     siteName: '라이프가든',
     locale: 'ko_KR',
@@ -119,7 +119,7 @@ export default function RootLayout({
                 "name": "양유승"
               },
               "description": "라이프가든은 화훼, 청년, 교육의 가치를 통합하여 개인의 성장과 사회 발전에 기여하는 비영리단체입니다.",
-              "keywords": "라이프가든, Life Garden, 비영리단체, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주"
+              "keywords": "라이프가든, Life Garden, 비영리단체, 위드아카데미, 플레이아카데미, 화훼, 교육, 청년, 양유승, 식물원, 성경교육, 광주"
             })
           }}
         />

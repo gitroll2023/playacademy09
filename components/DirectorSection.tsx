@@ -77,7 +77,7 @@ export default function DirectorSection() {
                 <div className="flex items-start space-x-4">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <div className="font-semibold text-foreground">현 플레이아카데미 핵심 후원자 및 고문</div>
+                    <div className="font-semibold text-foreground">현 산하기관 핵심 후원자 및 고문</div>
                     <div className="text-sm text-muted-foreground">성경 기반 교육 기관의 든든한 버팀목</div>
                   </div>
                 </div>

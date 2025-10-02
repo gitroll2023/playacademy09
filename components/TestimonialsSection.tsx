@@ -48,7 +48,7 @@ export default function TestimonialsSection() {
             <div className="space-y-6">
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-sm">
                 <p className="text-lg font-bold text-blue-800 italic text-center">
-                  "플레이아카데미의 시작을 축복합니다"
+                  "산하기관들의 시작을 축복합니다"
                 </p>
               </div>
 
@@ -58,12 +58,12 @@ export default function TestimonialsSection() {
                 </p>
 
                 <p>
-                  플레이아카데미는 '배움이 즐거움이 되는 순간, 새로운 가능성이 열린다'는 슬로건 아래,
+                  라이프가든의 산하기관들은 '배움이 즐거움이 되는 순간, 새로운 가능성이 열린다'는 슬로건 아래,
                   모든 개인이 자신의 고유한 가치를 찾아가는 여정을 돕고자 합니다.
                 </p>
 
                 <p>
-                  양유승 장로님을 비롯한 여러 원장님들의 헌신과 기도로 세워진 이 기관이
+                  양유승 장로님을 비롯한 여러 원장님들의 헌신과 기도로 세워진 이 기관들이
                   다음 세대를 위한 신앙 교육의 새로운 지평을 열어가기를 소망합니다.
                 </p>
               </div>
@@ -112,7 +112,7 @@ export default function TestimonialsSection() {
                 </p>
 
                 <p>
-                  플레이아카데미가 각자의 '라이프가든'을 더욱 아름답게 가꾸어 나가는
+                  라이프가든의 산하기관들이 각자의 '라이프가든'을 더욱 아름답게 가꾸어 나가는
                   소중한 밑거름이 되기를 바라며, 힘찬 격려의 박수를 보냅니다.
                 </p>
               </div>
@@ -174,7 +174,7 @@ export default function TestimonialsSection() {
                   <h4 className="text-lg sm:text-xl font-bold">성장하는 교육 공동체</h4>
                 </div>
                 <p className="text-slate-200 text-sm sm:text-base leading-relaxed">
-                  플레이아카데미는 많은 분들의 기도와 후원으로 성장하고 있습니다
+                  라이프가든의 산하기관들은 많은 분들의 기도와 후원으로 성장하고 있습니다
                 </p>
               </div>
             </div>

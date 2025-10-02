@@ -82,7 +82,7 @@ export default function RetroDirector() {
                 <strong>• 現 비영리단체 라이프가든 이사장</strong> (승인 대기)<br />
                 &nbsp;&nbsp;화훼, 교육, 청년, 신앙의 가치 통합<br />
                 <br />
-                <strong>• 現 플레이아카데미 핵심 후원자 및 고문</strong><br />
+                <strong>• 現 아카데미 핵심 후원자 및 고문</strong><br />
                 &nbsp;&nbsp;성경 기반 교육 기관의 든든한 버팀목<br />
                 <br />
                 <strong>• 現 남평 식물원 원장</strong><br />

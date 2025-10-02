@@ -79,7 +79,7 @@
     </image:image>
   </url>
   
-  <!-- 플레이아카데미 -->
+  <!-- 산하기관 (아카데미) -->
   <url>
     <loc>https://lifegarden.co.kr/#academy</loc>
     <lastmod>2024-12-19T00:00:00+09:00</lastmod>
@@ -90,6 +90,11 @@
       <image:loc>https://lifegarden.co.kr/playacademy.png</image:loc>
       <image:title>플레이아카데미</image:title>
       <image:caption>배움이 즐거움이 되는 교육 프로그램</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/weedacademy.png</image:loc>
+      <image:title>위드아카데미</image:title>
+      <image:caption>함께하는 배움의 여정</image:caption>
     </image:image>
   </url>
   
