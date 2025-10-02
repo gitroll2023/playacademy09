@@ -79,7 +79,7 @@ export default function PlayAcademySection() {
                   교육 철학
                 </h3>
                 <p className="text-green-600 mb-4">
-                  Play Academy는 배움의 본질을 재정의하는 교육 프로그램입니다.
+                  Academy는 배움의 본질을 재정의하는 교육 프로그램입니다.
                 </p>
                 <div className="bg-white/60 rounded-xl p-4">
                   <p className="font-bold text-green-800 italic">
@@ -114,7 +114,7 @@ export default function PlayAcademySection() {
                   비전
                 </h3>
                 <p className="text-amber-600">
-                  Play Academy는 단순한 교육 기관을 넘어, 배움을 통해 개인의 잠재력을 극대화하고 실질적인 변화를 창출하는 플랫폼이 될 것입니다.
+                  Academy는 단순한 교육 기관을 넘어, 배움을 통해 개인의 잠재력을 극대화하고 실질적인 변화를 창출하는 플랫폼이 될 것입니다.
                 </p>
               </div>
             </div>
