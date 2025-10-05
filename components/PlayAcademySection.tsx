@@ -33,7 +33,7 @@ export default function PlayAcademySection() {
               </div>
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
                 <img
-                  src="/with.png"
+                  src="/withacademy.png"
                   alt="위드아카데미 로고"
                   className="w-full h-auto mx-auto"
                 />
