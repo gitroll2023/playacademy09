@@ -96,6 +96,11 @@
       <image:title>위드아카데미</image:title>
       <image:caption>함께하는 배움의 여정</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/itdaacademy.jpg</image:loc>
+      <image:title>잇다아카데미</image:title>
+      <image:caption>연결하는 배움의 공동체</image:caption>
+    </image:image>
   </url>
   
   <!-- 추천의 말씀 -->
