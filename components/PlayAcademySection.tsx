@@ -23,7 +23,7 @@ export default function PlayAcademySection() {
         <div className="max-w-6xl mx-auto">
           {/* 로고 섹션 */}
           <div className="text-center mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
                 <img
                   src="/playacademy.png"
@@ -35,6 +35,13 @@ export default function PlayAcademySection() {
                 <img
                   src="/withacademy.png"
                   alt="위드아카데미 로고"
+                  className="w-full h-auto mx-auto"
+                />
+              </div>
+              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+                <img
+                  src="/itdaacademy.jpg"
+                  alt="잇다아카데미 로고"
                   className="w-full h-auto mx-auto"
                 />
               </div>
