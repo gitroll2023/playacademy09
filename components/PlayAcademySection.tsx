@@ -49,7 +49,7 @@ export default function PlayAcademySection() {
                 <img
                   src="/hanaacademy.jpg"
                   alt="하나아카데미 로고"
-                  className="w-full h-auto mx-auto mt-12"
+                  className="w-full h-auto mx-auto mt-9"
                 />
               </div>
             </div>
