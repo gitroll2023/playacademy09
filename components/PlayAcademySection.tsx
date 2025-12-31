@@ -1,4 +1,4 @@
-"use client";
+import Image from "next/image";
 
 export default function PlayAcademySection() {
   return (
@@ -25,37 +25,47 @@ export default function PlayAcademySection() {
           <div className="text-center mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto mb-8">
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
-                <img
+                <Image
                   src="/playacademy.png"
                   alt="플레이아카데미 로고"
+                  width={300}
+                  height={150}
                   className="w-full h-auto mx-auto"
                 />
               </div>
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
-                <img
+                <Image
                   src="/itdaacademy.jpg"
                   alt="잇다아카데미 로고"
+                  width={300}
+                  height={150}
                   className="w-full h-auto mx-auto"
                 />
               </div>
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
-                <img
+                <Image
                   src="/withacademy.png"
                   alt="위드아카데미 로고"
+                  width={300}
+                  height={150}
                   className="w-full h-auto mx-auto"
                 />
               </div>
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
-                <img
+                <Image
                   src="/hanaacademy.jpg"
                   alt="하나아카데미 로고"
+                  width={300}
+                  height={150}
                   className="w-full h-auto mx-auto mt-9"
                 />
               </div>
               <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
-                <img
+                <Image
                   src="/rebornacademy.png"
                   alt="리본아카데미 로고"
+                  width={300}
+                  height={150}
                   className="w-full h-auto mx-auto"
                 />
               </div>
